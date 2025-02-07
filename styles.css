@@ -1,0 +1,147 @@
+body {/*fondo*/
+    background-color: #bd51b6; /* Rosa palo oscuro */
+    font-family: Arial, sans-serif;
+    color: black
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar, .main, .cart {
+    padding: 20px;
+}
+.sidebar {/*barra izquierda*/
+    width: 10%;
+    height: 1550px;
+}
+.main {/*letras del menu y precios*/
+    width: 60%;
+    font-style: oblique;
+    font-size: 26px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.cart {
+    width: 15%;/*barra derecha*/
+    height: 1550px;
+
+    
+}
+.product { /*caja de cada prodcuto*/
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.product img {/*imajenes tamaño*/
+    width: 100px;
+    height: 100px;
+}
+.cart-items {/*color de letra del carrito*/
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.animated-button {
+    background-color: #ff4081;
+    color: aqua;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+}
+.animated-button:hover {
+    background-color: #ff79b0;
+}
+.logotipo1 {
+    width: 200px;
+    height: auto;
+}
+footer {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    padding: auto;
+    width: auto;
+    height: auto;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    font-size: 75px;
+    text-decoration: doubles;
+    color: #080d0e;
+    margin-top: -30px;
+}
+#mision-vision {
+    color: black;
+    z-index: 1;
+    
+}
+ul{
+    color: white
+}
+.listas{
+    list-style: none;
+    color: white;
+}
+ul li:not(:last-child) {
+    margin-bottom: 40px;
+}
+ul li a {/*letras de la barra izquierda*/
+    text-decoration: none;
+    color: black
+}
+.carrito {
+    width: 150px;
+}
+body {
+    margin: 0;
+    padding: 0; 
+}
+
+.contenido {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/fondoweb.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Ajusta la opacidad aquí */
+    z-index: -1; /* Ubica la imagen detrás del contenido */
+}
+.li1{
+    font-style: oblique;
+    font-size: 20px;
+}
+.li2{
+font-style: oblique;
+font-size: 20px;
+}
+.li3{
+    font-style: oblique;
+    font-size: 20px;
+}
+.li4{
+font-style: oblique;
+font-size: 20px;
+}
+.li5{
+    font-style: oblique;
+    font-size: 20px;
+    }
